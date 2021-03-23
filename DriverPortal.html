@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <title>Driver Check In Portal</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<body>
+    <h1 class="title">Driver Check In Portal</h1>
+
+    <!-- Radio for Supplier -->
+
+    <p>Please select your appropriate supplier:</p>
+
+    <div class= "box">
+        <div>
+        <input type="radio" id="usherTransport" name="supplier" value="usherTransport" checked>
+        <label for="usherTransport">Usher Transport</label>
+        </div>
+
+        <div>
+        <input type="radio" id="safetyKleen" name="supplier" value="safetyKleen">
+        <label for="safetyKleen">Safety Kleen</label>
+        </div>
+
+        <div>
+        <input type="radio" id="venezia" name="supplier" value="venezia">
+        <label for="venezia">Venezia</label>
+        </div>
+    
+
+        <div>
+        <input type="radio" id="kenanAdvantage" name="supplier" value="kenanAdvantage">
+        <label for="kenanAdvantage">KenanAdvantage</label>
+        </div>
+</div>
+
+    <!-- Driver Name and Time -->
+    
+    <form action="DriverPortal.html" method="post">
+        <h3>Driver Name</h3>
+        <input type="text" id="name">
+    </form>
+
+    <form action="DriverPortal.html" method="post">
+        <h3>Time You Arrived</h3>
+        <input type="text" id="time">
+    </form>
+</body>
+</html>
